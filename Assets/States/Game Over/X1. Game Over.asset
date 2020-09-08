@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdbcb212efbfc754cbcfb991e731e5f8, type: 3}
+  m_Name: X1. Game Over
+  m_EditorClassIdentifier: 
+  storyText: "Game Over\nWell, you choose to go to the island. 3 days later one little
+    local girl knocked your door, hold your hand and take you to the boat. You take
+    the boat and went to the island by map. But when you got there they immediately
+    arrest you and they said this island is isolated place. Once you get in you cant
+    allowed to get out. They made dozens of test on you and at last they give you
+    a small house to live. \r\nYou were really surprised and scared at the same time
+    and you understood that it was a complo to obstruct you from the success. \r\n\r\n1.Start
+    Again\r\n2. Go back to the Main Menu "
+  nextState:
+  - {fileID: 11400000, guid: 9885b60ae77a6d044b4082ffabcfc137, type: 2}
+  - {fileID: 11400000, guid: cc07914b39839344791cbb914d54487c, type: 2}

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdbcb212efbfc754cbcfb991e731e5f8, type: 3}
+  m_Name: A1
+  m_EditorClassIdentifier: 
+  storyText: 'FIND THE TREASURE
+
+
+    You are the one of the most successful astrolog
+    in the world. Your works are published on every news casts. While your career
+    is going perfectly you received an anonim message from a secret company. On the
+    letter it says there is the biggest treasure in the world left behind the ancient
+    empire and they need you to find it. But, the problem is they dont know where
+    to look at exactly, they have just some hints to look at it.
+
+    You decide
+    to accept the duty and you think the company is testing you.
+
+    Well, they
+    are offering a 2 places and you should decide one:
+
+
+    1. The ocean
+
+    2.
+    The forest'
+  nextState:
+  - {fileID: 11400000, guid: b099d8bb1335e8c45a642a986d8d2314, type: 2}
+  - {fileID: 11400000, guid: 1ab7dfe2a83c4754e9c08a66874d54bb, type: 2}

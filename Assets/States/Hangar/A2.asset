@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdbcb212efbfc754cbcfb991e731e5f8, type: 3}
+  m_Name: A2
+  m_EditorClassIdentifier: 
+  storyText: 'Well, appearantly you choose to discover the forest. But you dont know
+    which one they will offer you to search it. You didnt talk to anyone about this
+    letter and meanwhile you are waiting your new message impatiently. 3 days later
+    you have got a new letter and it says:
+
+
+    1. Amazon
+
+    2. Boreal'
+  nextState:
+  - {fileID: 11400000, guid: 83da220d0e6bf32428bf51f4648f161b, type: 2}
+  - {fileID: 11400000, guid: cc80128575886ff469d0462f0107d2b1, type: 2}

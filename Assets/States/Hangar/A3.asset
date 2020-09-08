@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdbcb212efbfc754cbcfb991e731e5f8, type: 3}
+  m_Name: A3
+  m_EditorClassIdentifier: 
+  storyText: 'Okay! So you choose the ocean to discover and a few days later you
+    got a new message. It says: " the ocean but which one do you think have the treasure
+    their deeply world"
+
+
+    1.Pasific
+
+    2. Atlantik'
+  nextState:
+  - {fileID: 11400000, guid: 9fdce39426181db429e22fecbbb7597b, type: 2}
+  - {fileID: 11400000, guid: 68d1ea512ac2da3429f11ecc18997ea4, type: 2}
